@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Ubuntu', arial; */
+    font-family: 'Kreon', arial;
+    text-align: center;
+    background-color: rgb(244, 207, 165);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#tombolsumbit{
+    margin-bottom: 25px;
+}
+
+
+#tanggalisi{
+    /* float: right; */
+    width: 100%;
+    /* margin-bottom: 20px; */
+    /* text-align: right; */
+    /* padding-right: 50px; */
+    /* margin-right: 10px; */
+    /* padding-left: 245px; */
+}
+
+#imagetandatangan{
+    margin-top: 16px;
+    display: flex;
+}
+
+#kepalaunit{
+    margin-top: 20px;
+    width: 50%;
+}
+
+#pesertalomba{
+    width: 50%;
+}
+
+input[type=radio]{
+    float: left;
+}
+
+table#jenislombatabel label{
+    float: left;
+}
+
+.dotline{
+    margin-top: 100px;
+}

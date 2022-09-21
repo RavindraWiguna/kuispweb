@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Pekan Olahraga dan Seni Guru TKA/TPA 2020</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="kopformulir">
+        <div id="formtitle">Formulir Pendaftaran</div>
+        <div  id="eventtitle">Pekan Olahrage dan Seni Guru TKA/TPA</div>
+        <div id="eventyear">Tahun 2020</div>
+    </div>
+    <div class="content">
+        <table align="center" cellpadding="10" border="1">
+            <tr>
+                <td>
+                    NAMA PESERTA:
+                </td>
+                <td>
+                    <input type="text" placeholder="Masukkan nama anda" id="data_nama">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    TEMPAT LAHIR:
+                </td>
+                <td>
+                    <input type="text" placeholder="Masukkan tempat lahir anda" id="data_tempat_lahir">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    TANGGAL LAHIR:
+                </td>
+                <td>
+                    <input type="date" placeholder="" id="data_tgl_lahir">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    UTUSAN UNIT TKA/TPA:
+                </td>
+                <td>
+                    <input type="text" placeholder="Masukkan unit" id="data_unit">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    KELURAHAN/DESA:
+                </td>
+                <td>
+                    <input type="text" placeholder="Masukkan nama desa/kelurahan" id="data_desa">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    KECAMATAN:
+                </td>
+                <td>
+                    <input type="text" placeholder="Masukkan nama kecamatan" id="data_kecamatan">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    NOMOR TELEPON:
+                </td>
+                <td>
+                    <input type="text" placeholder="Masukkan no telepon anda" id="data_telp">
+                </td>
+            </tr>
+        </table>
+        <div id="jenislombacontainer">
+            <div id="jenislombatext">
+                JENIS LOMBA:
+            </div>
+            <table id="jenislombatabel" align="center" cellpadding="2" cellspacing="2">
+                <tr>
+                    <td>
+                        <input type="radio" id="cat1" name="jlomba" value="1">
+                        <label for="cat1">Tarik Tambang (4 Perempuan + 1 Laki = 5 orang)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="cat2" name="jlomba" value="2">
+                        <label for="cat2">Lari Estafet (4 Perempuan)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="cat3" name="jlomba" value="3">
+                        <label for="cat3">Gobak Sodor (4 Perempuan)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="cat4" name="jlomba" value="4">
+                        <label for="cat4">Tartil (1 orang perwakilan TKA/TPA)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="cat5" name="jlomba" value="5">
+                        <label for="cat5">Ceramah (1 orang perwakilan TKA/TPA)</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="tombolsumbit">
+            <input type="submit" value="Daftar" onclick="validate()">
+        </div>
+    </div>
+    <div class="tandatangan">
+        <div id="imagetandatangan">
+            <div id="kepalaunit">
+                <div id="namattdkepala">
+                    Kepala Unit TKA/TPA
+                </div>
+                <div class="dotline">
+                    ____________
+                </div>
+                <!-- upload image -->
+            </div>
+            <div id="pesertalomba">
+                <div id="tanggalisi">
+                    Surabaya, 
+                </div>
+                <div id="namattdpeserta">
+                    Peserta Lomba
+                </div>
+                <!-- upload image -->
+                <div class="dotline">
+                    ____________
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
